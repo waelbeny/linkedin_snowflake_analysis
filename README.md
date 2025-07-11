@@ -47,6 +47,21 @@ Fichiers utilisés :
 | **app_offres_par_experience** | Répartition des offres par niveau d’expérience |
 | **app_offres_par_type** | Répartition des offres par type d’emploi (temps plein, partiel, etc.) |
 
+
+---
+
+❗ Problèmes rencontrés & solutions
+❌ Problème 1 : job_industries.json ne correspondait pas aux job_id de job_postings
+➡️ Solution : Les analyses croisant ces deux sources ont été faites séparément. Aucun job_id commun trouvé.
+
+❌ Problème 2 : Erreurs de colonnes lors du chargement CSV
+➡️ Solution : Ajout de l’option ERROR_ON_COLUMN_COUNT_MISMATCH = FALSE et ON_ERROR = 'CONTINUE'.
+
+❌ Problème 3 : Format JSON ne chargait qu’en VARIANT
+➡️ Solution : Passage par des tables intermédiaires *_raw puis cast avec data:"champ".
+
+---
+
 ---
 
 ## 🧪 Requêtes SQL Principales
