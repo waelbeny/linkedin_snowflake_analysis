@@ -66,6 +66,17 @@ Fichiers utilisés :
 ➡️ Solution : Passage par des tables intermédiaires *_raw puis cast avec data:"champ".
 
 ---
+##l'organisation du dépôt GitHub
+
+linkedin_snowflake_analysis/
+├── README.md
+├── linkedin_project.sql
+├── streamlit/
+│   ├── app_top10_titles.py
+│   ├── app_offres_par_experience.py
+│   └── app_offres_par_type.py
+└── screenshots/
+    └── snowflake_apps.png
 
 ---
 
