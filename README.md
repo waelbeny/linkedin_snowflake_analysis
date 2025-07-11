@@ -58,3 +58,17 @@ FROM job_postings
 GROUP BY title
 ORDER BY nb_postes DESC
 LIMIT 10;
+
+-- Répartition par type de contrat
+SELECT formatted_work_type, COUNT(*) AS nb_offres
+FROM job_postings
+GROUP BY formatted_work_type
+ORDER BY nb_offres DESC;
+
+-- Répartition par expérience
+SELECT formatted_experience_level, COUNT(*) AS nb_offres
+FROM job_postings
+GROUP BY formatted_experience_level
+ORDER BY nb_offres DESC;
+
+
