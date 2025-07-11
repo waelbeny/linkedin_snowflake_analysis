@@ -2,6 +2,11 @@
 
 # 🧊 Projet : Analyse des Offres d'Emploi LinkedIn avec Snowflake
 
+👨‍💻 Réalisé par
+- Wael Ben Yahmed
+- Ahmed khalil Kadri 
+- Badr Drissi 
+
 ## 🎓 Contexte
 Ce projet est réalisé dans le cadre du MBA Big Data & Intelligence Artificielle à MBA ESG.  
 L’objectif est de démontrer notre capacité à manipuler, transformer et analyser un large jeu de données métier sur le marché de l'emploi via la plateforme **Snowflake**, en exploitant SQL et Streamlit pour créer des visualisations interactives.
