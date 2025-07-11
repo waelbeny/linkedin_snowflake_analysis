@@ -66,19 +66,19 @@ Fichiers utilisés :
 ➡️ Solution : Passage par des tables intermédiaires *_raw puis cast avec data:"champ".
 
 ---
-##l'organisation du dépôt GitHub
+## l'organisation du dépôt GitHub
 
+```text 
 linkedin_snowflake_analysis/
-├── README.md
-├── linkedin_project.sql
-├── streamlit/
-│   ├── app_top10_titles.py
-│   ├── app_offres_par_experience.py
-│   └── app_offres_par_type.py
-└── screenshots/
-    └── snowflake_apps.png
+├── README.md                    📄 Documentation du projet
+├── linkedin_project.sql         🧊 Script SQL complet (création des tables, chargement, requêtes)
+├── streamlit/                   📊 Applications Streamlit déployées dans Snowflake
+   ├── app_top10_titles.py          🔹 Analyse : Top 10 des titres de postes les plus publiés
+   ├── app_offres_par_experience.py 🔹 Analyse : Répartition des offres par niveau d'expérience
+   └── app_offres_par_type.py       🔹 Analyse : Répartition des offres par type d'emploi (temps plein, partiel, etc.)
 
----
+
+ ````
 
 ## 🧪 Requêtes SQL Principales
 
